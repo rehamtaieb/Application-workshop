@@ -1,0 +1,11 @@
+# Spring Boot
+workshop-application/target/
+*.log
+
+# Angular
+workshop-front/node_modules/
+workshop-front/dist/
+
+# Windows
+Thumbs.db
+.DS_Store
