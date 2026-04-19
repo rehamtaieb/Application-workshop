@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://myapp-backend-bgcpgcgrdtfzezc6.austriaeast-01.azurewebsites.net/api'
+  apiUrl: 'https://myapp-backend-bgcpgcgrdtfzezc6.austriaeast-01.azurewebsites.net/api/products'
 };
 
 /*
