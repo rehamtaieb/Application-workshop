@@ -24,6 +24,7 @@ jobs:
 
       - name: npm install and build
         run: |
+          npm cache clean --force
           npm install
           chmod +x ./node_modules/.bin/ng
           ./node_modules/.bin/ng build --configuration=production
