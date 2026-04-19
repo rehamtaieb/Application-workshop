@@ -31,6 +31,9 @@ jobs:
         env:
           NODE_OPTIONS: --openssl-legacy-provider
 
+      - name: Check dist folder
+        run: ls -la product-front/dist/product-front/
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
