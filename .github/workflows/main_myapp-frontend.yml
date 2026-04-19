@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: product-front/dist/product-front/browser
+          path: product-front/dist/product-front
 
   deploy:
     runs-on: ubuntu-latest
