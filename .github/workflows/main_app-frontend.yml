@@ -19,10 +19,13 @@ jobs:
           node-version: '20.x'
       - name: npm install, build
         run: |
+          npm cache clean --force
           npm install
           chmod +x ./node_modules/.bin/ng
-          npx ng build --configuration production
+          ./node_modules/.bin/ng build --configuration=production
         working-directory: product-front
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
