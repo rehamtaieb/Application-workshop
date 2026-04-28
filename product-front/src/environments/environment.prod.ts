@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://myapp-backend-bgcpgcgrdtfzezc6.austriaeast-01.azurewebsites.net/api'
+  apiUrl: 'https://app-backend-fbc4d6ghfwfwbwhv.austriaeast-01.azurewebsites.net/api'
 };
